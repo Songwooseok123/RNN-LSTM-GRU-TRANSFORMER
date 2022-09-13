@@ -27,4 +27,5 @@ feed forward 신경망으로서 한 뱡향으로만 신호가 전달됨<br>
 
 [단점] : 메모리가 덮어씌어질 가능성이 있음. 연산속도가 느림
 
-## GRU : 계산시간을 줄이기 위해 LSTM의 구조를 단순화한 모델(hidden state vector만 사용, gate 갯수 2개로 줄임- reset gate, update gate) 
+### GRU
+계산시간을 줄이기 위해 LSTM의 구조를 단순화한 모델(hidden state vector만 사용, gate 갯수 2개로 줄임- reset gate, update gate) 
